@@ -3,6 +3,9 @@ const darken = require('polished/lib/color/darken');
 module.exports = {
     theme: {
         extend: {
+            fontFamily: {
+                display: '"Playfair Display"'
+            },
             spacing: {
                 '72': '18rem',
                 '84': '21rem',

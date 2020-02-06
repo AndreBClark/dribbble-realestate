@@ -3,11 +3,11 @@ body {
 }
 
 header {
-    @apply h-64 p-24 bg-gray-500 text-center;
+    @apply h-64 max-w-6xl mx-auto;
 }
 
 main {
-    @apply max-w-6xl mx-auto py-5;
+    @apply mx-auto py-5;
 }
 
 footer {
