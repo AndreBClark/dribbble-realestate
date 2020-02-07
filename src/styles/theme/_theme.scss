@@ -1,2 +1,11 @@
 @import './layout';
 @import './typography';
+nav {
+    & a {
+        @apply px-6 py-2;
+        &:hover {
+            @apply bg-white text-secondary;
+            transition: all 300ms;
+        }
+    }
+}
