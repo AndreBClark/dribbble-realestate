@@ -23,6 +23,7 @@
     },
     "homepage": "https://github.com/AndreBClark/cosmicdivision-boilerplate#readme",
     "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.12.1",
         "tailwindcss": "^1.2.0"
     },
     "devDependencies": {
