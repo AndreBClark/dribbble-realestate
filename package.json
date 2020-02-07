@@ -27,7 +27,6 @@
     },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^2.0.4",
-        "@svgr/parcel-plugin-svgr": "^5.0.1",
         "autoprefixer": "^9.7.3",
         "cssnano": "^4.1.10",
         "cssnano-preset-advanced": "^4.0.7",
