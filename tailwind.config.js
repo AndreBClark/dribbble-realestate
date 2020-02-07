@@ -3,8 +3,12 @@ const darken = require('polished/lib/color/darken');
 module.exports = {
     theme: {
         extend: {
+            screens: {
+                "2xl": "1440px"
+            },
             fontFamily: {
-                display: '"Playfair Display"'
+                display: '"Playfair Display"',
+                sans: '"Nunito Sans"'
             },
             spacing: {
                 '72': '18rem',
@@ -14,6 +18,8 @@ module.exports = {
                 '120': '30rem'
             },
             colors: {
+                primary: "#b2b6c6",
+                secondary: "#181718",
                 deeppurple: {
                     '900': darken(.25, "#44337a"),
                     '800': darken(.225, "#44337a"),

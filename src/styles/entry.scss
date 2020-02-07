@@ -5,6 +5,7 @@
 
 /* purgecss ignore end */
 
+@tailwind components;
 @import './core/main';
 @import './components/components';
 @import './theme/theme';
