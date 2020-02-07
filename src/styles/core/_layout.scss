@@ -3,7 +3,10 @@ body {
 }
 
 header {
-    @apply h-64 mx-auto;
+    @apply mx-auto p-4;
+    @screen xl {
+        @apply h-64
+    }
 }
 
 main {
