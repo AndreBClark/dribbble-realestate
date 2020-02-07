@@ -5,7 +5,7 @@ body {
 header {
     @apply mx-auto p-4;
     @screen xl {
-        @apply h-64
+        @apply h-64;
     }
 }
 

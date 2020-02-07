@@ -1,6 +1,6 @@
 @import './layout';
 @import './typography';
-a{
+a {
     @apply text-white font-bold;
     &:hover {
         @apply bg-white text-secondary;
